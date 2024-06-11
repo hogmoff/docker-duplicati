@@ -23,7 +23,9 @@ RUN \
     mono-devel \
     mono-vbnc \
     unzip \
-    wakeonlan && \
+    wakeonlan \
+    openssh-client \
+    sshpass && \
   echo "**** install duplicati ****" && \
   if [ -z ${DUPLICATI_RELEASE+x} ]; then \
     DUPLICATI_RELEASE=$(curl -sX GET "https://api.github.com/repos/duplicati/duplicati/releases" \

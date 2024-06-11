@@ -1,4 +1,4 @@
-# Dockerfile mit Paket wakeonlan hinzugefügt
+# Dockerfile mit Paket wakeonlan, openssh-client und sshpass hinzugefügt
 # Quelle in Unraid auf hogmoff/duplicati:latest ändern
 
 docker build \
