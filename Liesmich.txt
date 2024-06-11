@@ -1,0 +1,7 @@
+# Dockerfile mit Paket wakeonlan hinzugefügt
+# Quelle in Unraid auf hogmoff/duplicati:latest ändern
+
+docker build \
+  --no-cache \
+  --pull \
+  -t hogmoff/duplicati:latest .
